@@ -1,8 +1,67 @@
 <html>
   <head>
   </head>
+<style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(45deg, #ff6b6b, #f0e130);
+            animation: gradient 5s ease infinite;
+        }
 
+        @keyframes gradient {
+            0% {
+                background: linear-gradient(45deg, #ff6b6b, #f0e130);
+            }
+            50% {
+                background: linear-gradient(45deg, #42a5f5, #66bb6a);
+            }
+            100% {
+                background: linear-gradient(45deg, #ff6b6b, #f0e130);
+            }
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+        }
+
+        button {
+            padding: 0.5em 2em;
+            font-size: 1.2em;
+            color: white;
+            background: #ff6b6b;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #ff4081;
+        }
+    </style>
   <body>
 <h1>this is p2 class practicalsimilac</h1>
+    <div class="container">
+        <h1>Welcome to Jerel WebSite!</h1>
+        <p>Yong Zhe is So Cool</p>
+      <img src="https://scontent.fkul1-1.fna.fbcdn.net/v/t1.18169-9/22008033_1424927947620596_5447997581217619557_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7b2446&_nc_ohc=9G6giQEN7cMQ7kNvgGiTdtP&_nc_ht=scontent.fkul1-1.fna&oh=00_AYCmU0cki4s7G2nt6vye1v9D4jFpp4EqhUInaavnx-c4XQ&oe=66B54B36" alt="Image"/>
+        <button onclick="alert('Button Clicked!')">Click Me!</button>
+    </div>
   </body>
 </html>
